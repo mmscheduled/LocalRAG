@@ -1,0 +1,31 @@
+python-dotenv>=1.0.0        # 加载.env环境变量配置
+
+lazy_loader==0.4
+pdfminer.six>=20221105      # PDF文档解析与文本提取
+unstructured==0.18.11
+Markdown==3.8.2          # 解析和渲染Markdown格式文本
+python-multipart>=0.0.6     # 处理多部分表单数据（如文件上传
+
+sentence-transformers>=3.0.0 # 文本向量化，语义检索
+faiss-cpu                   # 高效的向量检索库（CPU版）
+langchain==0.3.26
+langchain-huggingface==0.3.1
+langchain-text-splitters==0.3.8    # 文本分割工具，便于后续处理
+langchain-unstructured==0.1.6
+langchain-community==0.3.27
+jieba>=0.42.1               # 中文分词，文本预处理
+
+requests>=2.31.0            # 发送HTTP请求，调用外部API
+fastapi>=0.104.1            # 构建API服务，后端接口
+uvicorn>=0.23.2             # FastAPI的ASGI服务器
+
+
+urllib3>=1.26.16            # HTTP客户端，底层网络请求支持
+pydantic>=2.9.2,<2.11.0     # 数据校验与模型定义
+gradio>=3.50.0              # 构建Web界面，实现用户交互
+
+# PDF处理相关
+
+# 工具依赖
+numpy>=1.26.1               # 数值计算与数据处理
+rank-bm25==0.2.2            # BM25关键词检索算法
